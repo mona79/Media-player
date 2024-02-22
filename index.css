@@ -1,0 +1,25 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set box-sizing to border-box for all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Set default font family and size */
+body {
+  font-family: 'Roboto', sans-serif; /* Example font family */
+  font-size: 16px; /* Example font size */
+}
+
+/* Apply styles to root element */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the app fills the viewport height */
+}
+
+/* Other global styles can be added here */
